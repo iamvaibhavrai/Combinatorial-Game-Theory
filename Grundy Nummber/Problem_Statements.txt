@@ -5,3 +5,6 @@ Statement 2: The game starts with a pile of n stones, and the player to move may
 
 
 Statement 3: The game starts with a number- 'n' and the player to move divides the number- 'n' with 2, 3 or 6 and then takes the floor. If the integer becomes 0, it is removed. The last player to move wins.
+
+
+Source - GeeksForGeeks
