@@ -1,3 +1,6 @@
 Grundy Numbers or Nimbers determine how any Impartial Game (not only the Game of Nim) can be solved once we have calculated the Grundy Numbers associated with that game using Sprague-Grundy Theorem.
 
 MEX - 'Minimum excludant' a.k.a 'Mex' of a set of numbers is the smallest non-negative number not present in the set.
+
+
+Source - GeeksForGeeks
