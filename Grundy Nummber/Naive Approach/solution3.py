@@ -9,14 +9,15 @@ def calculateMex(l):
 def calculateGrundy(n):
     if n == 0:
         return 0
+
     l = []
-    for i in range(n):
-        l.append(calculateGrundy(i))
+    l.append(calculateGrundy(n//2))
+    l.append(calculateGrundy(n//3))
+    l.append(calculateGrundy(n//6))
     return calculateMex(l)
 
 def main():
-    pass
+    print(calculateGrundy(7))
 
 if __name__ == '__main__':
-    print(calculateGrundy(10))
     main()
